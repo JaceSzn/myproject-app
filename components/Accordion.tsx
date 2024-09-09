@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+/* import React, { useState } from 'react'
 import { Collapse } from 'react-collapse';
 import { FaMinus, FaPlus } from 'react-icons/fa';
 
-function Accordion() {
+function Accordion({toggle, open}: ButtonProps){
 
     const [open, setOpen] = useState<number | null>(null);
     const toggle = (index: number) =>{
@@ -12,6 +12,7 @@ function Accordion() {
 
         setOpen(index);
     }
+
 
   return (
     <div>
@@ -58,10 +59,13 @@ function Accordion() {
     </div>
   )
 }
-type AccordionItemsProps ={
-    isOpened:boolean,
-    toggle: () => void
+
+type ButtonProps = {
+    open: boolean;
+    toggle: () => void,
 }
+
 
 export default Accordion
 
+ */

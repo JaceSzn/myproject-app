@@ -3,7 +3,7 @@ import React from 'react'
 import Slider from 'react-slick'
 import Image from 'next/image'
 import { FaQuoteLeft } from 'react-icons/fa'
-import Accordion from '../Accordion'
+// import Accordion from '../Accordion'
 
 const Testimonial = () => {
 
@@ -82,7 +82,7 @@ const Testimonial = () => {
             </div>
             {/* right */}
             <div>
-               <Accordion /> 
+               {/* <Accordion />  */}
             </div>
         </div>
     </section>
